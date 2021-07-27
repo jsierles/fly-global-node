@@ -24,7 +24,7 @@ const prisma = new client_1.PrismaClient({
 const app = express();
 const port = 3500;
 app.set('view engine', 'pug');
-app.set('views', './examples/views');
+app.set('views', './views');
 app.use(cookieParser());
 app.use(fly_nodejs_1.requestHandler);
 // Hack to enable error handling in async handlers

@@ -4,7 +4,7 @@
   "description": "ExpressJS app to be deployed on Fly.io",
   "scripts": {
     "dev": "ts-node app.ts",
-    "start": "node app.js"
+    "start": "npx prisma generate && node app.js"
   },
   "repository": {
     "type": "git",
